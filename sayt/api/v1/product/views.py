@@ -1,7 +1,7 @@
 from rest_framework.generics import ListCreateAPIView
 from rest_framework.response import Response
 
-from api.v1.product.services import product_format, product_pag, get_one_product
+from api.v1.product.services import product_format
 from api.models import Product
 from .serializer import ProductSerializer
 

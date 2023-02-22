@@ -1,8 +1,7 @@
-from rest_framework.exceptions import NotFound
 from rest_framework.generics import ListCreateAPIView
 from rest_framework.response import Response
 
-from api.v1.category.services import category_format, category_pag, get_one_category
+from api.v1.category.services import category_format
 from api.models import Category
 from .serializer import CategorySerializer
 

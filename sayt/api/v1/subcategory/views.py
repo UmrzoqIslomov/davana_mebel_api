@@ -1,7 +1,7 @@
 from rest_framework.generics import ListCreateAPIView
 from rest_framework.response import Response
 
-from api.v1.subcategory.services import subcategory_format, subctg_pag, get_one_subctg
+from api.v1.subcategory.services import subcategory_format
 from api.models import SubCategory
 from .serializer import SubcategorySerializer
 
